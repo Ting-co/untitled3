@@ -1,7 +1,6 @@
 package com.main.fservlet;
 
 import javax.servlet.*;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
@@ -12,9 +11,16 @@ public class helloServlet  implements Servlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
+
+
+
         System.out.println("2");
+        System.out.println("new push");
         ServletContext servletContext = servletConfig.getServletContext();
         System.out.println(servletContext.getAttribute("key1"));
+
+
+
     }
 
     @Override
