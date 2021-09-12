@@ -33,5 +33,6 @@ public class helloServlet2 extends HttpServlet {
 
         resp.sendRedirect("http://localhost:8080/javaweb_war_exploded/hello4");
 
+
     }
 }
